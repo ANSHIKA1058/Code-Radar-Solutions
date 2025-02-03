@@ -3,7 +3,7 @@
 
 int main() {
     int a,b,sum,mul,sub;
-    float div;
+    int div;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     sum = a+b;
@@ -21,7 +21,7 @@ int main() {
         printf("%d",sub);
     }
     else if(ch=='/'){
-        printf("%f",div);
+        printf("%d",div);
     }
 }
 
