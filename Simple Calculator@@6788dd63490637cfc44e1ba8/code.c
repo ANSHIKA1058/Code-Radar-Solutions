@@ -5,7 +5,7 @@ int main() {
     int a,b,sum,div,mul,sub;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
-    if(hc=='*'){
+    if(ch=='*'){
         mul = a*b;
         printf("%d",mul);
     }
