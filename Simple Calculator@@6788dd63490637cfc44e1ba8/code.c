@@ -21,7 +21,11 @@ int main() {
         printf("%d",sub);
     }
     else if(ch=='/'){
-        printf("%d",div);
+        if(b!=0){
+        printf("%d",div);}
+        else{
+            printf("error");
+        }
     }
 }
 
