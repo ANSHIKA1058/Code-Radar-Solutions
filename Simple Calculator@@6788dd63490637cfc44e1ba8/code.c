@@ -10,15 +10,6 @@ int main() {
     mul = a*b;
     div = a/b;
     sub = a-b;
-
-    if (b!=0){
-        div = (float)a/b;
-    }else{
-        div =0;
-    }
-
-
-
     if(ch=='*'){
         printf("%d",mul);
     }
