@@ -2,7 +2,8 @@
 
 
 int main() {
-    int a,b,sum,div,mul,sub;
+    int a,b,sum,mul,sub;
+    float div;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     if(ch=='*'){
@@ -19,7 +20,7 @@ int main() {
     }
     else if(ch=='/'){
         div = a/b;
-        printf("%d",div);
+        printf("%f",div);
     }
 }
 
