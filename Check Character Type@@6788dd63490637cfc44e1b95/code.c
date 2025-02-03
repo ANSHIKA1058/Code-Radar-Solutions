@@ -7,7 +7,7 @@ int main() {
         printf("Digit");
     }
     else if(isalpha(ch)){
-        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || c=='u'){
+        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
             printf("Vowel");
         }
         else{
