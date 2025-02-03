@@ -35,5 +35,8 @@ int main() {
             printf("error");
         }
     }
+    else{
+        printf("error");
+    }
 }
 
