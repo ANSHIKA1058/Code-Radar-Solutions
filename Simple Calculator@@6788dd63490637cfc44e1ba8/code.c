@@ -2,8 +2,8 @@
 
 
 int main() {
-    int a,b;
-    float div,sum,mul,sub;
+    int a,b,sum,sub,mul;
+    float div;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     sum = a+b;
@@ -30,7 +30,7 @@ int main() {
     }
     else if(ch=='/'){
         if(b!=0){
-        printf("%d",div);}
+        printf("%f",div);}
         else{
             printf("error");
         }
