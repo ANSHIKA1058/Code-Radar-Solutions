@@ -2,8 +2,8 @@
 
 
 int main() {
-    int a,b,sum,mul,sub;
-    float div;
+    int a,b;
+    float div,sum,mul,sub;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     sum = a+b;
