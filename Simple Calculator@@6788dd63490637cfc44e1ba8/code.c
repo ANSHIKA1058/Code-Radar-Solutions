@@ -4,9 +4,7 @@
 int main() {
     int a,b,res;
     char ch;
-    if(scanf("%d %d %c",&a,&b,&ch)!=3){
-        printf("error\n");
-    }
+    scanf("%d %d %c",&a,&b,&ch);
     switch (ch){
         case '+':
         res = a+b;
