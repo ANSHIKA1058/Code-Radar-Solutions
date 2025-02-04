@@ -2,32 +2,35 @@
 
 
 int main() {
-    int a,b,sum,sub,mul;
-    float div;
+    int a,b,res;
     char ch;
-    scanf("%d %d %c",&a,&b,&ch);
-    sum = a+b;
-    mul = a*b;
-    div = a/b;
-    sub = a-b;
-    if(ch=='*'){
-        printf("%d",mul);
+    if(scanf("%d %d %c",&a,&b,&ch)!=3){
+        printf("error\n");
     }
-    else if(ch=='+'){
-        printf("%d",sum);
+    switch (ch){
+        case '+':
+        res = a+b;
+        printf("%d\n",res);
+        break;
+        case '-':
+        res = a-b;
+        printf("%d\n",res);
+        case '*':
+        res = a*b;
+        printf("%d\n",res);
+        case '/':
+        if(b==0){
+            printf("error\n");
+            }else{
+                printf("%d\n",a/b);
+            }
+        break;
+        default:
+        printf("error\n");
+        break;
     }
-    else if(ch=='-'){
-        printf("%d",sub);
-    }
-    else if(ch=='/'){
-        if(b!=0){
-        printf("%f",div);}
-        else{
-            printf("error");
-        }
-    }
-    else{
-        printf("error");
-    }
+    return 0;
+  
+
 }
 
