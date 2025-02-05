@@ -3,9 +3,13 @@
 
 int main() {
     
-    char s[50];
-    scanf("%s",&s);
-    convertToUpper(s);
-    printf("%s",s);
-    
+    char s[100];
+    scanf("%s",s);
+    for (int i =0; str[i] != '0';i++){
+        if(s[i]>= 'a' && s[i] <= 'z'){
+            s[i] = s[i] - 32;
+        }
+    }
+    printf("%s\n",s);
+   
 }
