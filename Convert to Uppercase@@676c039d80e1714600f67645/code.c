@@ -5,7 +5,7 @@ int main() {
     
     char s[50];
     scanf("%s",&s);
-    toupper(s);
+    convertToUpper(s);
     printf("%s",s);
     
 }
