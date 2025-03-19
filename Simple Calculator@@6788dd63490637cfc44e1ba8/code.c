@@ -10,12 +10,17 @@ int main() {
         res = a+b;
         printf("%d\n",res);
         break;
+
         case '-':
         res = a-b;
         printf("%d\n",res);
+        break;
+
         case '*':
         res = a*b;
         printf("%d\n",res);
+        break;
+        
         case '/':
         if(b==0){
             printf("error\n");
