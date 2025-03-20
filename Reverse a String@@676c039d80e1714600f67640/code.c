@@ -1,5 +1,5 @@
 // Your code here...
-#inclue <stdio.h>
+#include <stdio.h>
 int main(){
     char c;
     scanf("%s"&c[50]);
