@@ -9,7 +9,7 @@ int main(){
         }
          char CC='A';
         for(int j =1;j<=i;j++){
-           printf("%c",CC++);
+           printf("%c ",CC++);
         }
         printf("\n");
     }
