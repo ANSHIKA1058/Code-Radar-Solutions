@@ -3,7 +3,7 @@
 
 int main() {
     int N;
-    printf("Enter the number of rows: ");
+   
     scanf("%d", &N);
 
     for (int i = 0; i <= N; i++) {
