@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    char c;
-    scanf("%s"&c[50]);
+    char c[50];
+    scanf("%s"&c);
     printf("%s",c);
 }
