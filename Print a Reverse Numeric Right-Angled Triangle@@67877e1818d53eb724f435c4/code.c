@@ -3,13 +3,9 @@
 int main(){
     int n,space,i,j;
     scanf("%d",&n);
-    for(i=n-1;i>=1;i--){
-        for(space=1;space<=n-1;space++){
-            printf(" ");
-        }
-        for(j=1;j<=n;j++){
-            printf("%d",j);
-        }
-        printf("\n");
+    for(i=1;i<=n;i++){
+       for(j=1;j>=1;j--){
+        printf("%d",j);
+       }printf("\n");
     }
 }
