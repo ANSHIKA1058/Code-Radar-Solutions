@@ -11,5 +11,5 @@ int main(){
         str[i]=str[length -1-i];
         str[length -1-i]=temp;
     }
-    printf("%s",str);
+    printf(" %s",str);
 }
