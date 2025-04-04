@@ -3,10 +3,10 @@
 #include <string.h>
 #include <ctype.h>
 int main(){
-    char n[100];
-    scanf("%[^\n]",n);
+    char s[100];
+    scanf("%[^\n]",s);
     int left =0;
-    int right = strlen(n)-1;
+    int right = strlen(s)-1;
    int is_palindrome=1;
    while(left<right){
         while(!isalnum(s[left]) && left<right) left++;
