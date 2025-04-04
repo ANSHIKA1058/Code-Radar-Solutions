@@ -4,7 +4,7 @@
 #include <ctype.h>
 int main(){
     char str[100];
-    scanf("%[^\n]s",str);
+    scanf(" %[^\n]s",str);
     int length = strlen(str);
     for(int i=0;i<length/2;i++){
         char temp = str[i];
