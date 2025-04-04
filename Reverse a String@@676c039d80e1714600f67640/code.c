@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     char c[50];
-   gets(c);
+   scanf("%[^\n]s",c);
    int size = 0;
    int k=0;
    while(c[k]!='\0'){
