@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    string c[50];
+    char c[50];
    gets(c);
    int size = 0;
    int k=0;
