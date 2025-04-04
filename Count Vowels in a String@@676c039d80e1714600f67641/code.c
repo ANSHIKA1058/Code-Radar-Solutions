@@ -11,6 +11,7 @@ for(int i=0;str[i]!='\0';i++){
     if(str == 'a' || str =='e' || str=='i' ||str=='o' ||str=='u'){
         vowels++;
     }
-    printf("%d",vowels);
+    
 }
+printf("%d",vowels);
 }
