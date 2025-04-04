@@ -4,7 +4,7 @@
 #include <stdio.h>
 int main(){
     char str[100];
-    fgets(str);
+    scanf("%[^\n]s",str);
     int a = strlen(str);
     printf("%d",a);
 }
