@@ -6,7 +6,7 @@ int main(){
     char str[100];
     char target;
     int count =0;
-    scanf(" %[^\n]*c",str);
+    scanf("%[^\n]%*c",str);
     scanf("%c",&target);
     for(int i=0;str[i]!='\0';i++){
         if(str[i]==target){
