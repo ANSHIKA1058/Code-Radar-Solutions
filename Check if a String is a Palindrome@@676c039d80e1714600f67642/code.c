@@ -7,7 +7,7 @@ int main(){
     scanf("%[^\n]",n);
     int left =0;
     int right = strlen(n)-1;
-   is_palindrome=1;
+   int is_palindrome=1;
    while(left<right){
         while(!isalnum(s[left]) && left<right) left++;
         while(!isalnum(s[left]) && left<right) right--;
