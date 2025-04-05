@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void reverse(int arr[],int si,int ei){
-    for(i=si,j=ei;i<j;i++,j--){
+    for(int =si,j=ei;i<j;i++,j--){
         int temp = arr[i];
         arr[i]=arr[j];
         arr[j]=temp;
