@@ -8,7 +8,7 @@ int main(){
     int j=0;
     fgets(str, sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
-        if(str1[i]=' '){
+        if(str[i]!=' '){
             result[j]=str[i];
             j++;
         }
