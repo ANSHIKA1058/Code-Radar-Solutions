@@ -22,7 +22,7 @@ int main(){
             break;
         }
     }if(isPangram)
-    printf(Yes);
+    printf("Yes");
     else
         printf("No");
     
