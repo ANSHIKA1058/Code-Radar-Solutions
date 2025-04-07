@@ -5,7 +5,7 @@ int main() {
     
   char str[100];
   scanf("%[^\n]s",str);
-  for(int i=0;i!='\0';i++){
+  for(int i=0;str[i]!='\0';i++){
     char a = toupper(str[i]);
   }
       printf("%s",str);
