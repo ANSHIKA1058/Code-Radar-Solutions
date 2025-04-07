@@ -1,15 +1,21 @@
 // Your code here...
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
+
 int main(){
     char str[100];
     scanf(" %[^\n]", str);
-    int length = strlen(str);
-    for(int i=0;i<length/2;i++){
-        char temp = str[i];
-        str[i]=str[length-1-i];
-        str[length-1-i]=temp;
+    int length = strlen(str),start=0,end;
+    for(int i=0;i<length;i++){
+        if(str[i]==' '|| str[i]=='\0'){end=i-1;
+       while(start<end){
+        char temp = str[strat];
+        str[start]=str[end];
+        str[end]=temp;
+        start++;
+        end--;
+       } 
+       start = i+1;}
     }
     printf(" %s",str);
 }
