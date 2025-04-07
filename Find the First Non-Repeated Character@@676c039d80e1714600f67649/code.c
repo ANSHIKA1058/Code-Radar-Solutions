@@ -12,5 +12,4 @@ int main(){
             printf("%c\n",s[i]);
         }
     }
-    printf("-");
 }
