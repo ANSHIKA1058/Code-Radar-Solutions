@@ -8,7 +8,7 @@ int main(){
     str[strcspn(str, "\n")]='\0';
     fgets(substr, sizeof(substr), stdin);
     substr[strcspn(substr, "\n")]='\0';
-    if(strstr(str, substr)1=NULL){
+    if(strstr(str, substr)!=NULL){
         printf("Yes");
     }else{
         printf("No");
