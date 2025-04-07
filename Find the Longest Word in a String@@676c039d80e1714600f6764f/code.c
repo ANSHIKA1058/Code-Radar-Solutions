@@ -21,5 +21,12 @@ int main(){
         }
         i++;
     }
+    word[j] = '\0';
+    if(j > max){
+        max = j;
+        for(int k = 0; k <= j; k++){
+            longest[k] = word[k];
+        }
+    }
     printf("%s",longest);
 }
