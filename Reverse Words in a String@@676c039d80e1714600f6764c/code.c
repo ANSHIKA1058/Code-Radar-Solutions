@@ -17,5 +17,5 @@ int main(){
        } 
        start = i+1;}
     }
-    printf(" %s",str);
+    printf("%s",str);
 }
