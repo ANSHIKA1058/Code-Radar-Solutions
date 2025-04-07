@@ -1,0 +1,17 @@
+// Your code here...
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+int main(){
+    char str[1000],substr[1000];
+    fgets(str,sizeof(str),stdin);
+    str[strcspn(str, "\n")]='\0';
+    fgets(substr, sizeof(substr), stdin);
+    substr[strcspn(substr, "\n")]='\0';
+    if(strstr(str, substr)1=NULL){
+        printf("Yes");
+    }else{
+        printf("No");
+    }
+    return 0;
+}
