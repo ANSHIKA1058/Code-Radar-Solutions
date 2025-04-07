@@ -6,7 +6,7 @@ int main(){
     scanf("%s", str1);
     scanf("%s", str2);
     if(strlen(str1)!=strlen(str2)){
-        printf("Not anagram\n");
+        printf("No\n");
         return 0;
     }
     for(int i=0;str1[i]!='\0';i++){
