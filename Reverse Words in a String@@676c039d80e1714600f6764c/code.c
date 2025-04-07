@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<length;i++){
         if(str[i]==' '|| str[i]=='\0'){end=i-1;
        while(start<end){
-        char temp = str[strat];
+        char temp = str[start];
         str[start]=str[end];
         str[end]=temp;
         start++;
