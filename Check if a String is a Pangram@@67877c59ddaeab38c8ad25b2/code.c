@@ -21,9 +21,9 @@ int main(){
             isPangram=0;
             break;
         }
-    }if(isPangram){
+    }if(isPangram)
 
-    printf(Yes);}else{
+    printf(Yes);else
         printf("No");
-    }
+    
 }
