@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <ctype.h>
 int main(){
     char str[100],cleanStr[100];
     int len,j=0,isPalindrome=1;
