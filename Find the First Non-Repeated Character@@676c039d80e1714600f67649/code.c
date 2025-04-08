@@ -10,6 +10,7 @@ int main(){
     for(i=0;s[i]&&s[i]!='\n';i++){
         if(count[s[i]]==1){
             printf("%c\n",s[i]);
+            break;
         }
     }
     
