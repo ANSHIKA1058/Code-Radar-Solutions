@@ -11,8 +11,10 @@ int main(){
         }
     }
     for(i=0;i<256;i++){
-        if(freq[i]>0){
-            printf("%c: %d\n",i,freq[i]);
+        char ch =str[i];
+        if(ch !='\n' && freq[(unsigned char)ch]!=0){
+            printf("%c: %d\n",ch,freq[(unsigned char)ch]);
+            freq[(unsigned char)ch]=0;
         }
     }
 }
