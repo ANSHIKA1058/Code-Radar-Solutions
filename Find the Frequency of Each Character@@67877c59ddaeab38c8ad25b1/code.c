@@ -12,7 +12,7 @@ int main(){
     }
     for(i=0;i<256;i++){
         if(freq[i]>0){
-            printf("%c: %d\n",i.freq[i]);
+            printf("%c: %d\n",i,freq[i]);
         }
     }
 }
