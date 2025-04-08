@@ -6,6 +6,7 @@ int main(){
     char c;
 
     scanf("%[^\n]s",str);
+    getchar();
     scanf("%c",&c);
     for(i=0;str[i]!='\0';i++){
         char ch = str[i];
