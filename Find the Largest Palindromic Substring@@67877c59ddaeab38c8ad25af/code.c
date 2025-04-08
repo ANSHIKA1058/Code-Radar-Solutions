@@ -9,7 +9,7 @@ int main() {
     while(str[len]!='\0'){
         len++;
     }
-    for(i=0;;i<len;i++){
+    for(i=0;i<len;i++){
         for(j=i;j<len;j++){
             int isPalindrome =1;
             for(k=0;k<=(j-i)/2;k++){
