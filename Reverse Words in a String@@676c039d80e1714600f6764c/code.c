@@ -7,7 +7,8 @@ int main(){
     scanf(" %[^\n]", str);
     int length = strlen(str),start=0,end;
     for(int i=0;i<length;i++){
-        if(str[i]==' '|| str[i]=='\0'){end=i-1;
+        if(str[i]==' '|| str[i]=='\0'){
+            end=(str[i]== ' ')?i-1:i;
        while(start<end){
         char temp = str[start];
         str[start]=str[end];
