@@ -12,7 +12,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
 
     for(i=0;str[i]!='\0';i++){
-        if(!isalpha(stt[i])||is_vowel(str[i])){
+        if(!isalpha(str[i])||is_vowel(str[i])){
             result[j++]=str[i];
         }
         result[j]='\0';
