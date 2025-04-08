@@ -16,7 +16,8 @@ int main(){
             result[j++]=str[i];
         }
         result[j]='\0';
-        printf("%s",result);
-        return 0;
+       
     }
+     printf("%s",result);
+        return 0;
 }
