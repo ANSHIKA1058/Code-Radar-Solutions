@@ -11,7 +11,9 @@ int main(){
         if(count[s[i]]==1){
             printf("%c\n",s[i]);
             break;
+        }else{
+            printf("-");
         }
     }
-    printf("-");
+    
 }
