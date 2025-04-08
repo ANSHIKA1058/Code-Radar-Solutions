@@ -4,11 +4,11 @@
 #include <string.h>
 int main(){
     char str[100],cleanStr[100];
-    int len,j=0,isPalindrome=1;
+    int len,i=0,j=0,isPalindrome=1;
     fgets(str,sizeof(str),stdin);
-    for(int i=0;str[i]!='\0';i++){
+    for(i=0;str[i]!='\0';i++){
         if(str[i]!=' '&& str[i]!='\n'){
-            cleanStr[j++]=str[i];
+            cleanStr[j++]=tolower(str[i]);
         }
     }
     cleanStr[j]='\0';
