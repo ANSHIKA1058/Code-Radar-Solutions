@@ -5,7 +5,9 @@ int main(){
     int i;
     char c;
 
-    scanf("%[^\n]s\n",str);
+    scanf("%[^\n]s",str);
+        getchar();
+
     scanf("%c",&c);
     for(i=0;str[i]!='\0';i++){
         char ch = str[i];
