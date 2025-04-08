@@ -14,5 +14,8 @@ int main(){
             break;
         }
     }
+    if(!found){
+        printf("-");
+    }
     
 }
