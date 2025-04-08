@@ -11,7 +11,7 @@ int main(){
     int i, j=0;
     fgets(str,sizeof(str),stdin);
 
-    for(i=o;str[i]!='\0';i++){
+    for(i=0;str[i]!='\0';i++){
         if(!isalpha(stt[i])||is_vowel(str[i])){
             result[j++]=str[i];
         }
