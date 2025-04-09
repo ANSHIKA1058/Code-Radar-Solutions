@@ -7,9 +7,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int a = sizeof(arr)/sizeof(arr[0]);
-    int isSorted =1;
-    for(int i=0;i<a-1;i++){
+    int isSorted = 1;
+    for(int i=0;i<n-1;i++){
         if(arr[i]<arr[i+1]){
             isSorted=0;
             break;
