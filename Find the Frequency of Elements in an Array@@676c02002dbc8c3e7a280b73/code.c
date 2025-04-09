@@ -20,7 +20,7 @@ int main(){
         }
         if(freq[i]!=0){
             freq[i]=count;
-            printf("%d: %d\n", arr[i], freq[i]);
+            printf("%d %d\n", arr[i], freq[i]);
         }
     }
 }
