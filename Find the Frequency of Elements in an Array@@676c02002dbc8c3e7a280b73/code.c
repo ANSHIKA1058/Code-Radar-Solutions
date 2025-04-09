@@ -7,7 +7,7 @@ int main(){
     int freq[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        freq[n] = -1;
+        freq[i] = -1;
     }
 
     for(int i=0;i<n;i++){
