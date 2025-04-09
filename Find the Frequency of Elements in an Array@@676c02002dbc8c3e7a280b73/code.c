@@ -3,7 +3,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],j;
     int freq[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -20,7 +20,7 @@ int main(){
         }
         if(freq[i]!=0){
             freq[i]=count;
-            printf("%d: %d\n",arr[i],freq[i]);
+            printf("%d: %d\n", arr[i], freq[i]);
         }
     }
 }
