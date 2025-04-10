@@ -8,10 +8,11 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int T;
+    int index = -1;
     scanf("%d",&T);
     for(int i=0;i<n;i++){
         if(arr[i]==T){
-            int index =i;
+            index =i;
             break;
         }
     }
