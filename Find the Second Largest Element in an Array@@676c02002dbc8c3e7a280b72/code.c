@@ -18,7 +18,7 @@ int main(){
         max2 = arr[i];
     }
     if(max2 == INT_MIN)
-    printf("No second largest element\n");
+    printf("-1");
     else
     printf("%d",max2);
     
