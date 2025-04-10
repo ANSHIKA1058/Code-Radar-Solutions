@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&T);
     for(int i=0;i<n;i++){
         if(arr[i]==T){
-            index =i;
+            int index =i;
             break;
         }
     }
